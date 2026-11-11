@@ -1,0 +1,17 @@
+{
+  "interval_seconds": 60,
+  "timeout_seconds": 10,
+  "failure_threshold": 2,
+  "sites": [
+    {
+      "name": "Example",
+      "url": "https://example.com",
+      "expected_status": [200]
+    },
+    {
+      "name": "Python",
+      "url": "https://www.python.org",
+      "expected_status": [200]
+    }
+  ]
+}
